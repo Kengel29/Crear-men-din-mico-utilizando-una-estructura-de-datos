@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Colmado Express – Menú dinámico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="barra">
+    <a class="marca" href="#inicio" id="nombre-app">Colmado Express</a>
+    <button id="btn-menu" class="btn-menu" aria-expanded="false" aria-controls="menu">Menú</button>
+    <nav aria-label="Principal">
+      <ul id="menu" class="menu"></ul>
+    </nav>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+    <p>Cargando menú…</p>
+  </main>
+
+  <footer class="pie"><span id="lema"></span></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

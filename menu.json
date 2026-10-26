@@ -1,0 +1,97 @@
+{
+  "app": {
+    "nombre": "Colmado Express",
+    "lema": "Tu colmado de siempre, ahora a un clic"
+  },
+  "menu": [
+    {
+      "id": "inicio",
+      "titulo": "Inicio",
+      "descripcion": "Pide comida y víveres del colmado del barrio sin salir de casa. Este menú se genera desde menu.json: cambia el archivo y cambia la página."
+    },
+    {
+      "id": "comida",
+      "titulo": "Comida",
+      "hijos": [
+        {
+          "id": "desayunos",
+          "titulo": "Desayunos",
+          "descripcion": "Para arrancar el día con sabor criollo.",
+          "items": [
+            { "nombre": "Mangú con los tres golpes", "precio": 250 },
+            { "nombre": "Huevos revueltos con salami", "precio": 180 },
+            { "nombre": "Yaniqueque con queso frito", "precio": 120 }
+          ]
+        },
+        {
+          "id": "almuerzos",
+          "titulo": "Almuerzos",
+          "descripcion": "La bandera dominicana y sus variantes.",
+          "items": [
+            { "nombre": "La bandera (arroz, habichuelas y pollo guisado)", "precio": 280 },
+            { "nombre": "Pescado frito con tostones", "precio": 350 },
+            { "nombre": "Locrio de pollo", "precio": 260 },
+            { "nombre": "Sancocho (los domingos)", "precio": 320 }
+          ]
+        },
+        {
+          "id": "postres",
+          "titulo": "Postres",
+          "descripcion": "Dulces de la casa.",
+          "items": [
+            { "nombre": "Habichuelas con dulce", "precio": 150 },
+            { "nombre": "Majarete", "precio": 100 },
+            { "nombre": "Flan de coco", "precio": 130 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colmado",
+      "titulo": "Colmado",
+      "hijos": [
+        {
+          "id": "viveres",
+          "titulo": "Víveres",
+          "descripcion": "Lo básico para la despensa.",
+          "items": [
+            { "nombre": "Arroz (libra)", "precio": 35 },
+            { "nombre": "Habichuelas rojas (libra)", "precio": 60 },
+            { "nombre": "Aceite (botella)", "precio": 140 }
+          ]
+        },
+        {
+          "id": "bebidas",
+          "titulo": "Bebidas",
+          "descripcion": "Bien frías.",
+          "items": [
+            { "nombre": "Jugo de chinola (vaso)", "precio": 80 },
+            { "nombre": "Morir soñando", "precio": 100 },
+            { "nombre": "Agua (botellón)", "precio": 60 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pedidos",
+      "titulo": "Pedidos",
+      "hijos": [
+        {
+          "id": "hacer-pedido",
+          "titulo": "Hacer un pedido",
+          "descripcion": "Elige tus productos y la dirección de entrega. Entregamos en Santo Domingo Este en menos de 45 minutos."
+        },
+        {
+          "id": "rastrear-pedido",
+          "titulo": "Rastrear mi pedido",
+          "descripcion": "Escribe tu número de pedido para ver en qué etapa va: preparando, en camino o entregado."
+        }
+      ]
+    },
+    {
+      "id": "contacto",
+      "titulo": "Contacto",
+      "descripcion": "WhatsApp: 809-555-0123. Horario: todos los días de 7:00 a. m. a 10:00 p. m."
+    }
+  ]
+}
